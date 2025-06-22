@@ -77,7 +77,7 @@ The frontend will run at [http://localhost:5173](http://localhost:5173)
 - **Backend:** FastAPI, OpenAI, Pinecone, LangChain
 - **Blockchain:** Ethereum-compatible smart contract (Proposal.sol)
 - **Notifications:** Real-time, in-app, and toast notifications
-- **AI:** OpenAI GPT for summarization and Q&A
+- **AI:** OpenAI GPT Model for summarization and Q&A
 
 ---
 
