@@ -1,4 +1,4 @@
-# ![CivicGPT](frontend/src/assets/civicgpt-banner.png)
+# ![CivicGPT](frontend/src/assets/civicGpt.png)
 
 # CivicGPT: AI-Powered Participatory Planning Assistant 🚀
 
