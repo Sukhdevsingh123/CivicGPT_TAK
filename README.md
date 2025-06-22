@@ -1,1 +1,0 @@
-# CivicGPT_TAK
