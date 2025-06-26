@@ -32,6 +32,8 @@ cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+   or
+pip install fastapi uvicorn python-dotenv langchain-openai langchain-pinecone pinecone openai
 ```
 
 #### Create a `.env` file in the `backend/` directory with:
@@ -101,7 +103,7 @@ The frontend will run at [http://localhost:5173](http://localhost:5173)
 ## 💡 Join Us!
 Ready to build better communities? **Fork, star, and contribute!**
 
-> Made with ❤️ for [Your Hackathon Name] 2024
+> Made with ❤️ for [Crypto cities Hackathon by Infinita city] 2024
 
 ---
 
