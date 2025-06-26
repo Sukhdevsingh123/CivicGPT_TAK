@@ -25,11 +25,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-     allow_origins=[
-        "http://localhost:5173",
-        "https://civic-gpt.vercel.app",  # Add Vercel frontend URL
-        
-    ],
+    allow_origins=["*"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
