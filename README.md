@@ -32,8 +32,6 @@ cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-   or
-pip install fastapi uvicorn python-dotenv langchain-openai langchain-pinecone pinecone openai
 ```
 
 #### Create a `.env` file in the `backend/` directory with:
