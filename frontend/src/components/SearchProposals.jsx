@@ -27,7 +27,7 @@ const SearchProposals = () => {
 
     try {
       const response = await axios.get(
-        `https://civicgpt-tak.onrender.com/api/search_proposals/${encodeURIComponent(
+        `https://civicgpt.onrender.com/api/search_proposals/${encodeURIComponent(
           searchQuery
         )}`
       );
