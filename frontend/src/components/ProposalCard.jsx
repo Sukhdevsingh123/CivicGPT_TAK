@@ -35,7 +35,7 @@ const ProposalCard = ({
       const likes = Number(updatedProposal[5]);
       const dislikes = Number(updatedProposal[6]);
       try {
-        await axios.post("https://civicgpt-tak.onrender.com/api/update_vote", {
+        await axios.post("https://civicgpt.onrender.com/api/update_vote", {
           proposalId: proposal.id,
           likes,
           dislikes,
