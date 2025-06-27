@@ -26,7 +26,7 @@ const QueryProposals = () => {
 
     try {
       const response = await axios.post(
-        "https://civicgpt-tak.onrender.com/api/ask_proposal",
+        "https://civicgpt.onrender.com/api/ask_proposal",
         {
           query: query.trim(),
         }
