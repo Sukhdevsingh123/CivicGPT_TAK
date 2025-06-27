@@ -484,7 +484,7 @@ const SubmitProposal = () => {
     setMessage("Generating summary...");
     try {
       const response = await axios.post(
-        "https://civicgpt-tak.onrender.com/api/generate_summary",
+        "https://civicgpt.onrender.com/api/generate_summary",
         { text: text.trim() }
       );
       setSummary(response.data.summary);
@@ -546,7 +546,7 @@ const SubmitProposal = () => {
         };
         try {
           await axios.post(
-            "https://civicgpt-tak.onrender.com/api/store_proposal",
+            "https://civicgpt.onrender.com/api/store_proposal",
             proposalData
           );
           setSuccess({
