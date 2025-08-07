@@ -101,7 +101,7 @@ The frontend will run at [http://localhost:5173](http://localhost:5173)
 ## 💡 Join Us!
 Ready to build better communities? **Fork, star, and contribute!**
 
-> Made with ❤️ for [Crypto cities Hackathon by Infinita city] 2024
+> Made with ❤️ for [Crypto cities Hackathon by Infinita city] 2025
 
 ---
 
